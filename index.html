@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon image -->
+    <link rel="icon" type="image/x-icon" href="favicon-x-o.ico">
+    <!-- style file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>X-O GAME</title>
+</head>
+
+<body>
+    <video autoplay muted loop class="myVideo">
+        <source src="background.mp4" type="video/mp4">
+    </video>
+
+    <div class="game">
+        <div class="container">
+
+            <div class="title" id="title"><span style="color: #f9a913;">X O</span> GAME</div>
+
+            <div class="content">
+
+                <div class="square" id="item1" onclick="playTurn(this.id)"></div>
+                <div class="square" id="item2" onclick="playTurn(this.id)"></div>
+                <div class="square" id="item3" onclick="playTurn(this.id)"></div>
+
+                <div class="square" id="item4" onclick="playTurn(this.id)"></div>
+                <div class="square" id="item5" onclick="playTurn(this.id)"></div>
+                <div class="square" id="item6" onclick="playTurn(this.id)"></div>
+
+                <div class="square" id="item7" onclick="playTurn(this.id)"></div>
+                <div class="square" id="item8" onclick="playTurn(this.id)"></div>
+                <div class="square" id="item9" onclick="playTurn(this.id)"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="scriptxo.js"></script>
+</body>
+
+</html>

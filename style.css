@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+
+
+.myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 100%;
+    margin: 100px 300px;
+}
+
+.title {
+    background-color: #0075ff;
+    width: 640px;
+    padding: 23px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    margin: 10px;
+}
+
+
+.content {
+    width: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #0075ff;
+    margin: 10px;
+    font-size: 185px;
+    font-weight: 500;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.square:hover {
+    background-color: #033e82;
+}
+
+
+
+@media(max-width: 767px) {
+
+    .title {
+        width: 517px;
+        margin: 10px auto;
+    }
+
+    .square {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media(max-width: 575px) {
+
+    .title {
+        width: 355px;
+        margin: 10px auto;
+    }
+
+    .content {
+        width: 376px;
+    }
+
+    .square {
+        width: 105px;
+        height: 105px;
+        font-size: 105px;
+    }
+}
