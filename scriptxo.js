@@ -75,3 +75,6 @@ function playTurn(id) {
 
 
 
+function playAgain() {
+    location.reload()
+};
