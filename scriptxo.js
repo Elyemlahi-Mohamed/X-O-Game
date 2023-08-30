@@ -19,7 +19,7 @@ function gameEnd(num1, num2, num3) {
 
     setTimeout(function () {
         location.reload()
-    }, 4000)
+    }, 3000)
 
 }
 
