@@ -6,6 +6,12 @@
 }
 
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 
 .myVideo {
     position: fixed;
@@ -14,18 +20,6 @@
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
-}
-
-
-.game {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    height: 100%;
-    margin: 100px 300px;
 }
 
 .title {
